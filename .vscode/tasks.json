@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "clang",
+      "args": [
+//          "-###",
+          "'@.vscode/compile_flags.txt'",
+//          "-lmsvcrt",                       //  Raylib
+//          "-lraylib",                       //  Raylib
+//          "-lgdi32",                        //  Raylib
+//          "-lwinmm",                        //  Raylib
+//          "-L../raylib-5.5/lib",            //  Raylib
+          "./src/main.c",
+          "-o",
+          "filter_CSV_by_age"
+              ],
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}
+ 
