@@ -1,6 +1,9 @@
 # Flowchart sources
 *.dot
 
+# Generated text files
+people_sorted.txt
+
 # Prerequisites
 *.d
 
